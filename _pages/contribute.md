@@ -9,7 +9,7 @@ toc: true
 
 如果你有本站未收录的试卷，欢迎投稿至：
 
-📧 **投稿邮箱**：<a href="mailto:zzh0101ww@gmail.com">zzh0101ww@gmail.com</a>
+📧 **投稿邮箱**：<a href="mailto:2905286250@qq.com">2905286250@qq.com</a>
 
 ## 📝 投稿须知
 
