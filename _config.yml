@@ -19,7 +19,7 @@ author:
 
 # 构建设置
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "air"
 
 # 输出设置
