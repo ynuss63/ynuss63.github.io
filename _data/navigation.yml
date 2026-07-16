@@ -14,29 +14,27 @@ main:
     url: /functional-analysis/
   - title: "微分几何"
     url: /differential-geometry/
-  - title: "更多课程 ▼"
-    children:
-      - title: "傅里叶分析"
-        url: /fourier-analysis/
-      - title: "实变函数"
-        url: /real-analysis/
-      - title: "复变函数论"
-        url: /complex-analysis/
-      - title: "抽象代数"
-        url: /abstract-algebra/
-      - title: "数论"
-        url: /number-theory/
-      - title: "数学物理方程"
-        url: /math-physics-equation/
-      - title: "集合论"
-        url: /set-theory/
-      - title: "数理统计"
-        url: /math-statistics/
-      - title: "数学建模"
-        url: /math-modeling/
-      - title: "现代几何基础"
-        url: /modern-geometry/
-      - title: "电动力学"
-        url: /electrodynamics/
+  - title: "傅里叶分析"
+    url: /fourier-analysis/
+  - title: "实变函数"
+    url: /real-analysis/
+  - title: "复变函数论"
+    url: /complex-analysis/
+  - title: "抽象代数"
+    url: /abstract-algebra/
+  - title: "数论"
+    url: /number-theory/
+  - title: "数学物理方程"
+    url: /math-physics-equation/
+  - title: "集合论"
+    url: /set-theory/
+  - title: "数理统计"
+    url: /math-statistics/
+  - title: "数学建模"
+    url: /math-modeling/
+  - title: "现代几何基础"
+    url: /modern-geometry/
+  - title: "电动力学"
+    url: /electrodynamics/
   - title: "投稿指南"
     url: /contribute/
