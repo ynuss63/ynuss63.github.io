@@ -13,9 +13,7 @@ toc: true
   {% assign parts = f.basename | split: "_" %}
   {% assign module = parts[1] %}
   {% assign suffix = parts[2] %}
-  {% if suffix contains "测试" %}
-    {% assign key = module | append: " 测试" %}
-  {% elsif suffix contains "小测" %}
+  {% if suffix contains "小测" or suffix contains "测试" %}
     {% assign key = module | append: " 小测" %}
   {% elsif suffix contains "期末" %}
     {% assign key = module | append: " 期末" %}
