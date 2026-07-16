@@ -34,6 +34,8 @@ main:
     url: /math-modeling/
   - title: "现代几何基础"
     url: /modern-geometry/
+  - title: "小波分析"
+    url: /wavelet-analysis/
   - title: "电动力学"
     url: /electrodynamics/
   - title: "投稿指南"

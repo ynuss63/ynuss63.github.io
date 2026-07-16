@@ -64,4 +64,5 @@ git push origin master
 | 数理统计 | shuli-tongji |
 | 数学建模 | shuxue-jianmo |
 | 现代几何基础 | xiandai-jihe-jichu |
+| 小波分析 | xiaobo-fenxi |
 | 电动力学 | diandong-lixue |
