@@ -5,8 +5,23 @@ layout: single
 toc: true
 ---
 
-{% for file in site.static_files %}
-{% if file.path contains "/pdfs/jihe-lun/" and file.extname == ".pdf" %}
-- [{{ file.basename | replace: "_", " " }}]({{ file.path }})
-{% endif %}
+{% assign pdfs = site.static_files | where_exp: "f", "f.path contains '/pdfs/jihe-lun/'" | where_exp: "f", "f.extname == '.pdf'" %}
+
+{% for group_name in "小测,期末" | split: "," %}
+  {% assign has = false %}
+  {% for f in pdfs %}{% assign parts = f.basename | split: "_" %}{% assign suffix = parts[2] %}{% if suffix contains "期末" and group_name == "期末" %}{% assign has = true %}{% elsif suffix contains "小测" or suffix contains "测试" and group_name == "小测" %}{% assign has = true %}{% endif %}{% endfor %}
+  {% if has %}
+## {{ group_name }}
+    {% for f in pdfs %}{% assign parts = f.basename | split: "_" %}{% assign suffix = parts[2] %}{% if suffix contains "期末" and group_name == "期末" %}- [{{ f.basename | replace: "_", " " }}]({{ f.path }})
+{% elsif suffix contains "小测" or suffix contains "测试" and group_name == "小测" %}- [{{ f.basename | replace: "_", " " }}]({{ f.path }})
+{% endif %}{% endfor %}
+  {% endif %}
 {% endfor %}
+
+{% assign has_other = false %}
+{% for f in pdfs %}{% assign parts = f.basename | split: "_" %}{% assign suffix = parts[2] %}{% unless suffix contains "期末" or suffix contains "小测" or suffix contains "测试" %}{% assign has_other = true %}{% endunless %}{% endfor %}
+{% if has_other %}
+## 其他
+{% for f in pdfs %}{% assign parts = f.basename | split: "_" %}{% assign suffix = parts[2] %}{% unless suffix contains "期末" or suffix contains "小测" or suffix contains "测试" %}- [{{ f.basename | replace: "_", " " }}]({{ f.path }})
+{% endunless %}{% endfor %}
+{% endif %}
