@@ -4,9 +4,9 @@
 locale: "zh-CN"
 title: "YNU理学"
 title_separator: "-"
-subtitle: "云南大学数学课程历年试卷汇集"
+subtitle: "云南大学理学课程历年试卷汇集"
 name: "YNU理学"
-description: "云南大学数学相关课程历年试卷合集，由同学自愿投稿整理。"
+description: "云南大学理学相关课程历年试卷合集，由同学自愿投稿整理。"
 url: "https://ynuss63.github.io"
 repository: "ynuss63/ynuss63.github.io"
 
