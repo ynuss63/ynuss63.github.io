@@ -46,5 +46,7 @@ main:
     url: /mechanics/
   - title: "高等数学"
     url: /advanced-math/
+  - title: "常微分方程"
+    url: /ode/
   - title: "投稿指南"
     url: /contribute/
