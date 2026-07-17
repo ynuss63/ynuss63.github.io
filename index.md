@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /
-title: "YNU数学考题合集"
+title: "YNU数学物理"
 classes: wide
 header:
   overlay_color: "#5e616c"

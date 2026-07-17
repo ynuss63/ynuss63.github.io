@@ -1,11 +1,11 @@
-# YNU 数学考题合集 站点配置
+# YNU 数学物理 站点配置
 
 # 站点设置
 locale: "zh-CN"
-title: "YNU数学考题合集"
+title: "YNU数学物理"
 title_separator: "-"
 subtitle: "云南大学数学课程历年试卷汇集"
-name: "YNU数学考题合集"
+name: "YNU数学物理"
 description: "云南大学数学相关课程历年试卷合集，由同学自愿投稿整理。"
 url: "https://ynuss63.github.io"
 repository: "ynuss63/ynuss63.github.io"
@@ -14,7 +14,7 @@ repository: "ynuss63/ynuss63.github.io"
 author:
   name: "YNU Math Exam"
   avatar: "/images/ynu-logo.jpg"
-  bio: "云南大学数学考题合集"
+  bio: "云南大学数学物理课程合集"
   location: "昆明, 云南"
 
 # 构建设置
