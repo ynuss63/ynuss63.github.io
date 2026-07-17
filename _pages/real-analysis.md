@@ -8,13 +8,11 @@ toc: true
 {% assign pdfs = site.static_files | where_exp: "f", "f.path contains '/pdfs/shibian-hanshu/'" | where_exp: "f", "f.extname == '.pdf'" %}
 {% assign xiaoces = "" | split: "" %}
 {% assign qimos = "" | split: "" %}
-{% assign others = "" | split: "" %}
 {% for f in pdfs %}
   {% assign parts = f.basename | split: "_" %}
   {% assign suffix = parts[2] %}
   {% if suffix contains "期末" %}{% assign qimos = qimos | push: f %}
-  {% elsif suffix contains "小测" or suffix contains "测试" %}{% assign xiaoces = xiaoces | push: f %}
-  {% else %}{% assign others = others | push: f %}
+  {% else %}{% assign xiaoces = xiaoces | push: f %}
   {% endif %}
 {% endfor %}
 
@@ -32,9 +30,3 @@ toc: true
 {% endfor %}
 {% endif %}
 
-{% if others.size > 0 %}
-## 其他
-{% for f in others %}
-- [{{ f.basename | replace: "_", " " }}]({{ f.path }})
-{% endfor %}
-{% endif %}

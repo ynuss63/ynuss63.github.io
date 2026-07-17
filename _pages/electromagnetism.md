@@ -1,11 +1,11 @@
 ---
-title: "微分几何"
-permalink: /differential-geometry/
+title: "电磁学"
+permalink: /electromagnetism/
 layout: single
 toc: true
 ---
 
-{% assign pdfs = site.static_files | where_exp: "f", "f.path contains '/pdfs/weifen-jihe/'" | where_exp: "f", "f.extname == '.pdf'" %}
+{% assign pdfs = site.static_files | where_exp: "f", "f.path contains '/pdfs/dianci-xue/'" | where_exp: "f", "f.extname == '.pdf'" %}
 {% assign xiaoces = "" | split: "" %}
 {% assign qimos = "" | split: "" %}
 {% for f in pdfs %}
@@ -29,4 +29,3 @@ toc: true
 - [{{ f.basename | replace: "_", " " }}]({{ f.path }})
 {% endfor %}
 {% endif %}
-

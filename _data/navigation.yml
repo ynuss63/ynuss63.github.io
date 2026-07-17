@@ -38,5 +38,13 @@ main:
     url: /wavelet-analysis/
   - title: "电动力学"
     url: /electrodynamics/
+  - title: "电磁学"
+    url: /electromagnetism/
+  - title: "解析几何"
+    url: /analytic-geometry/
+  - title: "力学"
+    url: /mechanics/
+  - title: "高等数学"
+    url: /advanced-math/
   - title: "投稿指南"
     url: /contribute/

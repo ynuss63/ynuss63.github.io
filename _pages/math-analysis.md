@@ -16,10 +16,8 @@ toc: true
   {% assign suffix = parts[2] %}
   {% if suffix contains "期末" %}
     {% assign key = module | append: " 期末" %}
-  {% elsif suffix contains "小测" or suffix contains "测试" %}
-    {% assign key = module | append: " 小测" %}
   {% else %}
-    {% assign key = module | append: " " | append: suffix %}
+    {% assign key = module | append: " 小测" %}
   {% endif %}
   {% unless seen contains key %}
     {% assign seen = seen | append: "|" | append: key %}
@@ -36,10 +34,8 @@ toc: true
     {% assign suffix = parts[2] %}
     {% if suffix contains "期末" %}
       {% assign key = module | append: " 期末" %}
-    {% elsif suffix contains "小测" or suffix contains "测试" %}
-      {% assign key = module | append: " 小测" %}
     {% else %}
-      {% assign key = module | append: " " | append: suffix %}
+      {% assign key = module | append: " 小测" %}
     {% endif %}
     {% if key == group %}
 - [{{ f.basename | replace: "_", " " }}]({{ f.path }})
