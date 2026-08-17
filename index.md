@@ -67,8 +67,6 @@ excerpt: "云南大学理学课程历年试卷合集，由同学们自愿投稿�
 
 ## ✨ 致谢
 
-22级 段昱辰
-
 ---
 
 <div style="text-align:center;color:#999;font-size:0.85em;margin-top:40px;">
