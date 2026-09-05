@@ -46,6 +46,8 @@ main:
     url: /mechanics/
   - title: "高等数学"
     url: /advanced-math/
+  - title: "统计拔尖班选拔"
+    url: /stat-selection/
   - title: "常微分方程"
     url: /ode/
   - title: "投稿指南"
