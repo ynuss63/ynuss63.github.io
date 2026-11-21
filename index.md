@@ -19,7 +19,7 @@ excerpt: "云南大学理学课程历年试卷合集，由同学们自愿投稿�
 
 ### 数统
 
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.5em 1em;margin:0 0 1.6em;line-height:1.9">
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.4em 1em;margin:0 0 1.5em;line-height:2.05;font-size:.85em">
 <a href="/math-analysis/">数学分析</a>
 <a href="/advanced-algebra/">高等代数</a>
 <a href="/probability/">概率论</a>
@@ -46,7 +46,7 @@ excerpt: "云南大学理学课程历年试卷合集，由同学们自愿投稿�
 
 ### 物天
 
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.5em 1em;margin:0 0 1.6em;line-height:1.9">
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.4em 1em;margin:0 0 1.5em;line-height:2.05;font-size:.85em">
 <a href="/electrodynamics/">电动力学</a>
 <a href="/electromagnetism/">电磁学</a>
 <a href="/mechanics/">力学</a>
@@ -55,7 +55,7 @@ excerpt: "云南大学理学课程历年试卷合集，由同学们自愿投稿�
 
 ### 其他
 
-<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.5em 1em;margin:0 0 1.6em;line-height:1.9">
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.4em 1em;margin:0 0 1.5em;line-height:2.05;font-size:.85em">
 <a href="/advanced-math/">高等数学</a>
 <a href="/stat-selection/">统计拔尖班选拔</a>
 </div>
