@@ -2,7 +2,6 @@
 title: "概率论"
 permalink: /probability/
 layout: single
-toc: true
 ---
 
 {% assign pdfs = site.static_files | where_exp: "f", "f.path contains '/pdfs/gailv-lun/'" | where_exp: "f", "f.extname == '.pdf'" %}
@@ -17,17 +16,26 @@ toc: true
   {% endif %}
 {% endfor %}
 
+<p style="color:#777;font-size:0.92em;margin:0.2em 0 1.2em">共 {{ pdfs.size }} 份试卷，点标题展开</p>
+
 {% if xiaoces.size > 0 %}
-## 小测
-{% for f in xiaoces %}
-- [{{ f.basename | replace: "_", " " }}]({{ f.path }})
-{% endfor %}
+<div markdown="0">
+<details style="margin:0 0 1em 0">
+<summary style="cursor:pointer;font-weight:600;font-size:1.12em;padding:0.2em 0;border-bottom:1px solid #e6e6e6">小测 <span style="color:#999;font-size:0.85em;font-weight:400">（{{ xiaoces.size }}）</span></summary>
+<ul>
+{% for f in xiaoces %}<li style="margin:0.3em 0"><a href="{{ f.path }}">{{ f.basename | replace: "_", " " }}</a></li>{% endfor %}
+</ul>
+</details>
+</div>
 {% endif %}
 
 {% if qimos.size > 0 %}
-## 期末
-{% for f in qimos %}
-- [{{ f.basename | replace: "_", " " }}]({{ f.path }})
-{% endfor %}
+<div markdown="0">
+<details style="margin:0 0 1em 0">
+<summary style="cursor:pointer;font-weight:600;font-size:1.12em;padding:0.2em 0;border-bottom:1px solid #e6e6e6">期末 <span style="color:#999;font-size:0.85em;font-weight:400">（{{ qimos.size }}）</span></summary>
+<ul>
+{% for f in qimos %}<li style="margin:0.3em 0"><a href="{{ f.path }}">{{ f.basename | replace: "_", " " }}</a></li>{% endfor %}
+</ul>
+</details>
+</div>
 {% endif %}
-
