@@ -22,8 +22,9 @@ excerpt: "云南大学理学课程历年试卷合集，由同学们自愿投稿�
 | | | |
 |---|---|---|
 | [数学分析](/math-analysis/) | [高等代数](/advanced-algebra/) | [概率论](/probability/) |
-| [数理统计](/math-statistics/) | [常微分方程](/ode/) | [实变函数](/real-analysis/) |
-| [复变函数论](/complex-analysis/) | [抽象代数](/abstract-algebra/) | [解析几何](/analytic-geometry/) |
+| [数理统计](/math-statistics/) | [数值分析](/numerical-analysis/) | [常微分方程](/ode/) |
+| [实变函数](/real-analysis/) | [复变函数论](/complex-analysis/) | [近世代数](/modern-algebra/) |
+| [抽象代数](/abstract-algebra/) | [交换代数与同调代数](/commutative-algebra/) | [解析几何](/analytic-geometry/) |
 | [泛函分析](/functional-analysis/) | [拓扑](/topology/) | [微分几何](/differential-geometry/) |
 | [傅里叶分析](/fourier-analysis/) | [小波分析](/wavelet-analysis/) | [现代几何基础](/modern-geometry/) |
 | [集合论](/set-theory/) | [数论](/number-theory/) | [数学建模](/math-modeling/) |
@@ -34,7 +35,7 @@ excerpt: "云南大学理学课程历年试卷合集，由同学们自愿投稿�
 | | |
 |---|---|
 | [电动力学](/electrodynamics/) | [电磁学](/electromagnetism/) |
-| [力学](/mechanics/) | |
+| [力学](/mechanics/) | [理论力学的数学方法](/mechanics-methods/) |
 
 ### 其他
 

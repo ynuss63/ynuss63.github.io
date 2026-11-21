@@ -10,7 +10,8 @@ toc: true
 {% assign qimos = "" | split: "" %}
 {% for f in pdfs %}
   {% assign parts = f.basename | split: "_" %}
-  {% assign suffix = parts[2] %}
+  {% assign suffix = "" %}
+  {% for p in parts %}{% if p contains "小测" or p contains "期中" or p contains "期末" or p contains "随堂" %}{% assign suffix = p %}{% endif %}{% endfor %}
   {% if suffix contains "期末" %}{% assign qimos = qimos | push: f %}
   {% else %}{% assign xiaoces = xiaoces | push: f %}
   {% endif %}

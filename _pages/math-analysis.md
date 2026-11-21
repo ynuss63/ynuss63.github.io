@@ -13,7 +13,8 @@ toc: true
 {% for f in pdfs %}
   {% assign parts = f.basename | split: "_" %}
   {% assign module = parts[1] %}
-  {% assign suffix = parts[2] %}
+  {% assign suffix = "" %}
+  {% for p in parts %}{% if p contains "小测" or p contains "期中" or p contains "期末" or p contains "随堂" %}{% assign suffix = p %}{% endif %}{% endfor %}
   {% if suffix contains "期末" %}
     {% assign key = module | append: " 期末" %}
   {% else %}
@@ -31,7 +32,8 @@ toc: true
   {% for f in pdfs %}
     {% assign parts = f.basename | split: "_" %}
     {% assign module = parts[1] %}
-    {% assign suffix = parts[2] %}
+    {% assign suffix = "" %}
+  {% for p in parts %}{% if p contains "小测" or p contains "期中" or p contains "期末" or p contains "随堂" %}{% assign suffix = p %}{% endif %}{% endfor %}
     {% if suffix contains "期末" %}
       {% assign key = module | append: " 期末" %}
     {% else %}
