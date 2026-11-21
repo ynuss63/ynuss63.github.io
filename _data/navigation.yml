@@ -1,5 +1,18 @@
-# 主导航菜单
+# 顶部导航（精简）：主题的 masthead.html 只读 main 这一份
 main:
+  - title: "首页"
+    url: /
+  - title: "数学分析"
+    url: /math-analysis/
+  - title: "高等代数"
+    url: /advanced-algebra/
+  - title: "概率论"
+    url: /probability/
+  - title: "投稿指南"
+    url: /contribute/
+
+# 左侧栏（完整课程列表）：页面的 sidebar.nav 指向 courses
+courses:
   - title: "首页"
     url: /
   - title: "数学分析"

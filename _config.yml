@@ -50,7 +50,7 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "main"
+        nav: "courses"
   # 首页
   - scope:
       path: ""
