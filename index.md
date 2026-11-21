@@ -19,41 +19,45 @@ excerpt: "云南大学理学课程历年试卷合集，由同学们自愿投稿�
 
 ### 数统
 
-<div markdown="0">
-<table>
-<tbody>
-<tr><td><a href="/math-analysis/">数学分析</a></td><td><a href="/advanced-algebra/">高等代数</a></td><td><a href="/probability/">概率论</a></td></tr>
-<tr><td><a href="/math-statistics/">数理统计</a></td><td><a href="/numerical-analysis/">数值分析</a></td><td><a href="/ode/">常微分方程</a></td></tr>
-<tr><td><a href="/real-analysis/">实变函数</a></td><td><a href="/complex-analysis/">复变函数论</a></td><td><a href="/modern-algebra/">近世代数</a></td></tr>
-<tr><td><a href="/abstract-algebra/">抽象代数</a></td><td><a href="/commutative-algebra/">交换代数与同调代数</a></td><td><a href="/analytic-geometry/">解析几何</a></td></tr>
-<tr><td><a href="/functional-analysis/">泛函分析</a></td><td><a href="/topology/">拓扑</a></td><td><a href="/differential-geometry/">微分几何</a></td></tr>
-<tr><td><a href="/fourier-analysis/">傅里叶分析</a></td><td><a href="/wavelet-analysis/">小波分析</a></td><td><a href="/modern-geometry/">现代几何基础</a></td></tr>
-<tr><td><a href="/set-theory/">集合论</a></td><td><a href="/number-theory/">数论</a></td><td><a href="/math-modeling/">数学建模</a></td></tr>
-<tr><td><a href="/math-physics-equation/">数学物理方程</a></td><td></td><td></td></tr>
-</tbody>
-</table>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.5em 1em;margin:0 0 1.6em;line-height:1.9">
+<a href="/math-analysis/">数学分析</a>
+<a href="/advanced-algebra/">高等代数</a>
+<a href="/probability/">概率论</a>
+<a href="/math-statistics/">数理统计</a>
+<a href="/numerical-analysis/">数值分析</a>
+<a href="/ode/">常微分方程</a>
+<a href="/real-analysis/">实变函数</a>
+<a href="/complex-analysis/">复变函数论</a>
+<a href="/modern-algebra/">近世代数</a>
+<a href="/abstract-algebra/">抽象代数</a>
+<a href="/commutative-algebra/">交换代数与同调代数</a>
+<a href="/analytic-geometry/">解析几何</a>
+<a href="/functional-analysis/">泛函分析</a>
+<a href="/topology/">拓扑</a>
+<a href="/differential-geometry/">微分几何</a>
+<a href="/fourier-analysis/">傅里叶分析</a>
+<a href="/wavelet-analysis/">小波分析</a>
+<a href="/modern-geometry/">现代几何基础</a>
+<a href="/set-theory/">集合论</a>
+<a href="/number-theory/">数论</a>
+<a href="/math-modeling/">数学建模</a>
+<a href="/math-physics-equation/">数学物理方程</a>
 </div>
 
 ### 物天
 
-<div markdown="0">
-<table>
-<tbody>
-<tr><td><a href="/electrodynamics/">电动力学</a></td><td><a href="/electromagnetism/">电磁学</a></td></tr>
-<tr><td><a href="/mechanics/">力学</a></td><td><a href="/mechanics-methods/">理论力学的数学方法</a></td></tr>
-</tbody>
-</table>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.5em 1em;margin:0 0 1.6em;line-height:1.9">
+<a href="/electrodynamics/">电动力学</a>
+<a href="/electromagnetism/">电磁学</a>
+<a href="/mechanics/">力学</a>
+<a href="/mechanics-methods/">理论力学的数学方法</a>
 </div>
 
 ### 其他
 
-<div markdown="0">
-<table>
-<tbody>
-<tr><td><a href="/advanced-math/">高等数学</a></td></tr>
-<tr><td><a href="/stat-selection/">统计拔尖班选拔</a></td></tr>
-</tbody>
-</table>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.5em 1em;margin:0 0 1.6em;line-height:1.9">
+<a href="/advanced-math/">高等数学</a>
+<a href="/stat-selection/">统计拔尖班选拔</a>
 </div>
 
 ---
