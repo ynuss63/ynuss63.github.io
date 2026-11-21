@@ -5,6 +5,7 @@ layout: single
 ---
 
 {% assign pdfs = site.static_files | where_exp: "f", "f.path contains '/pdfs/jihe-lun/'" | where_exp: "f", "f.extname == '.pdf'" %}
+{% assign glist = "40,39,38,37,36,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20" | split: "," %}
 {% assign xiaoces = "" | split: "" %}
 {% assign qimos = "" | split: "" %}
 {% for f in pdfs %}
@@ -23,7 +24,7 @@ layout: single
 <details style="margin:0 0 1em 0">
 <summary style="cursor:pointer;font-weight:600;font-size:1.12em;padding:0.2em 0;border-bottom:1px solid #e6e6e6">小测 <span style="color:#999;font-size:0.85em;font-weight:400">（{{ xiaoces.size }}）</span></summary>
 <ul>
-{% for f in xiaoces %}<li style="margin:0.3em 0"><a href="{{ f.path }}">{{ f.basename | replace: "_", " " }}</a></li>{% endfor %}
+{% for py in glist %}{% assign gs = py | append: "级" %}{% for ff in xiaoces %}{% assign pp = ff.basename | split: "_" %}{% if pp[0] == gs %}<li style="margin:0.3em 0"><a href="{{ ff.path }}">{{ ff.basename | replace: "_", " " }}</a></li>{% endif %}{% endfor %}{% endfor %}
 </ul>
 </details>
 </div>
@@ -34,7 +35,7 @@ layout: single
 <details style="margin:0 0 1em 0">
 <summary style="cursor:pointer;font-weight:600;font-size:1.12em;padding:0.2em 0;border-bottom:1px solid #e6e6e6">期末 <span style="color:#999;font-size:0.85em;font-weight:400">（{{ qimos.size }}）</span></summary>
 <ul>
-{% for f in qimos %}<li style="margin:0.3em 0"><a href="{{ f.path }}">{{ f.basename | replace: "_", " " }}</a></li>{% endfor %}
+{% for py in glist %}{% assign gs = py | append: "级" %}{% for ff in qimos %}{% assign pp = ff.basename | split: "_" %}{% if pp[0] == gs %}<li style="margin:0.3em 0"><a href="{{ ff.path }}">{{ ff.basename | replace: "_", " " }}</a></li>{% endif %}{% endfor %}{% endfor %}
 </ul>
 </details>
 </div>
